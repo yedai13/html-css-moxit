@@ -3,15 +3,10 @@ body {
 }
 
 .box {
-  width: 600px;
+  width: 200px;
   height: 200px;
-  /* background: linear-gradient(45deg, dodgerblue, orange, tomato); */
-  /* background: radial-gradient(circle at top left, dodgerblue, tomato); */
   background: rgb(124, 62, 130);
-  background: linear-gradient(
-    90deg,
-    rgba(124, 62, 130, 1) 0%,
-    rgba(107, 109, 150, 1) 47%,
-    rgba(53, 47, 116, 1) 100%
-  );
+  border: 10px dashed rebeccapurple;
+  border-width: 10px 20px 10px 20px; /*trbl (top right bottom left)*/
+  border-radius: 10px;
 }
