@@ -2,6 +2,21 @@ body {
   margin: 10px;
 }
 
-#products ~ p {
-  color: orange;
+article :first-child {
+  font-size: 140%;
+  font-style: italic;
+}
+
+ul li:nth-child(even) {
+  color: palevioletred;
+}
+
+a:visited,
+a:link {
+  color: dodgerblue;
+}
+
+a:hover,
+a:focus {
+  color: palevioletred;
 }
