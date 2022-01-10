@@ -6,42 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My firts web page</title>
     <style>
-      ul {
-        list-style-type: none;
+      table,
+      td,
+      th {
+        border: 1px solid grey;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+
+      tfoot {
+        text-align: left;
       }
     </style>
   </head>
   <body>
-    <dl>
-      <dt>Title</dt>
-      <dd>The ultimate HTML and CSS Course</dd>
-      <dt>Author</dt>
-      <dd>Mosh Hamedani</dd>
-      <dt>Skills</dt>
-      <dd>HTML</dd>
-      <dd>CSS</dd>
-      <dd>Responsive Design</dd>
-      <dd>Search Engine Optimization</dd>
-    </dl>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="2">Expnenses</th>
+        </tr>
+        <tr>
+          <th>Category</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
 
-    <ol>
-      <li>Preheat the oven</li>
-      <li>Place the ingrediente on the crust</li>
-      <li>put the pizza in the oven for 20 minutes.</li>
-    </ol>
-
-    <ul>
-      <li>About me</li>
-      <li>
-        Courses
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Git</li>
-        </ul>
-      </li>
-      <li>Subscribe</li>
-      <li>Contact me</li>
-    </ul>
+      <tbody>
+        <tr>
+          <td>Marketing</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Accounting</td>
+          <td>$200</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>Total</th>
+          <th>$300</th>
+        </tr>
+      </tfoot>
+    </table>
   </body>
 </html>
