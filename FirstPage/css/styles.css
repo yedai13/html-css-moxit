@@ -6,7 +6,10 @@ body {
   width: 200px;
   height: 200px;
   background: rgb(124, 62, 130);
-  border: 10px dashed rebeccapurple;
-  border-width: 10px 20px 10px 20px; /*trbl (top right bottom left)*/
-  border-radius: 10px;
+  box-shadow: 0 0 30px grey;
+}
+
+h1 {
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
