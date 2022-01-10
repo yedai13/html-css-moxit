@@ -3,7 +3,15 @@ body {
 }
 
 .box {
-  width: 200px;
+  width: 600px;
   height: 200px;
-  background-color: hsla(4, 82%, 47%, 0.8);
+  /* background: linear-gradient(45deg, dodgerblue, orange, tomato); */
+  /* background: radial-gradient(circle at top left, dodgerblue, tomato); */
+  background: rgb(124, 62, 130);
+  background: linear-gradient(
+    90deg,
+    rgba(124, 62, 130, 1) 0%,
+    rgba(107, 109, 150, 1) 47%,
+    rgba(53, 47, 116, 1) 100%
+  );
 }
