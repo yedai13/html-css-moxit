@@ -2,6 +2,10 @@ body {
   margin: 10px;
 }
 
-p {
+#parrafoId {
   color: orange;
+}
+
+a[href*="google"] {
+  color: brown;
 }
