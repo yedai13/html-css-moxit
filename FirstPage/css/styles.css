@@ -2,12 +2,8 @@ body {
   margin: 10px;
 }
 
-p {
-  color: blue;
-  border: 1px solid black;
-}
-
-strong {
-  color: initial;
-  border: inherit;
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: hsla(4, 82%, 47%, 0.8);
 }
