@@ -2,14 +2,37 @@ body {
   margin: 10px;
 }
 
-.box {
-  width: 200px;
-  height: 200px;
-  background: rgb(124, 62, 130);
-  box-shadow: 0 0 30px grey;
+table,
+td,
+th {
+  border-bottom: 1px solid #c4dcf3;
+  border-collapse: collapse;
+  padding: 10px;
 }
 
-h1 {
+tfoot {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #eef7ff;
+}
+
+thead tr:first-child {
+  background-color: #427fef;
   color: white;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+tfoot tr:last-child {
+  background-color: #427fef;
+  color: white;
+}
+
+.box {
+  margin-top: 30px;
+  width: 300px;
+  height: 300px;
+  background-color: tomato;
+  box-shadow: 10px 10px lightgray;
+  border-radius: 10px;
 }
