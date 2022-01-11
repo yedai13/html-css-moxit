@@ -1,7 +1,11 @@
+html {
+  /* 62.5% of 16 =10px */
+  font-size: 62.5%;
+}
+
 .box {
-  width: 150px;
-  height: 150px;
-  border: 3px solid tomato;
-  overflow: scroll;
-  /* overflow: hidden; */
+  width: 15rem;
+  height: 100vh;
+  border-top: 3px solid gold;
+  background-color: tomato;
 }
