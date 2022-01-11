@@ -8,39 +8,25 @@ body {
   height: 200vh;
 }
 
-.boxes {
-  border: 3px solid lightgray;
-  position: relative;
+.tweet {
+  border: 3px solid lightgrey;
+  /* overflow: hidden;  otra forma para arreglar el colapso*/
 }
 
-.box {
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.avatar {
   width: 5rem;
   height: 5rem;
+  background-color: tomato;
+  float: left;
+  margin-right: 0.5rem;
 }
 
-.box-one {
-  background: gold;
-}
-
-.box-two {
-  background: tomato;
-  position: fixed;
-  top: 0;
-  left: 2rem;
-  right: 2rem;
-  width: auto;
-  z-index: 99999;
-
-  /* position: relative;
-  left: 4rem;
-  bottom: 4rem; */
-
-  /* position: absolute;
-  right: 0;
-  top: 0;
-  z-index:1; */
-}
-
-.box-three {
-  background: dodgerblue;
+.clear {
+  clear: left;
 }
