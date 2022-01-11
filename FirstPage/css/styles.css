@@ -25,6 +25,8 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 5px;
 }
 
 h1,
@@ -39,6 +41,7 @@ h1 {
 }
 
 p {
+  width: 50ch;
   font-weight: normal;
   /* font-style: italic; */
   font-size: 1rem;
