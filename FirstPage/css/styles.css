@@ -1,15 +1,4 @@
-body {
-  margin: 10px;
-}
-
-.box {
-  width: 200px;
-  height: 200px;
-  background: rgb(124, 62, 130);
-  box-shadow: 0 0 30px grey;
-}
-
-h1 {
-  color: white;
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+p {
+  padding: 10px 20px;
+  border: 5px solid gold;
 }
