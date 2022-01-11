@@ -3,9 +3,44 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  margin: 10px;
+  height: 200vh;
+}
+
+.boxes {
+  border: 3px solid lightgray;
+  position: relative;
+}
+
 .box {
-  width: 15rem;
-  height: 100vh;
-  border-top: 3px solid gold;
-  background-color: tomato;
+  width: 5rem;
+  height: 5rem;
+}
+
+.box-one {
+  background: gold;
+}
+
+.box-two {
+  background: tomato;
+  position: fixed;
+  top: 0;
+  left: 2rem;
+  right: 2rem;
+  width: auto;
+  z-index: 99999;
+
+  /* position: relative;
+  left: 4rem;
+  bottom: 4rem; */
+
+  /* position: absolute;
+  right: 0;
+  top: 0;
+  z-index:1; */
+}
+
+.box-three {
+  background: dodgerblue;
 }
