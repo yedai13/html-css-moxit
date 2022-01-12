@@ -5,8 +5,10 @@ html {
 
 body {
   margin: 10px;
-}
-
-.meal {
-  width: 100vw;
+  background: url(../images/bg-paper.jpg);
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300vh;
 }
