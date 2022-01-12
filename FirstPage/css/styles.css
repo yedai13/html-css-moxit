@@ -2,3 +2,11 @@ html {
   /* 62.5% of 16 =10px */
   font-size: 100%;
 }
+
+body {
+  background: url(../images/constellation.svg);
+}
+
+.ufo {
+  width: 100px;
+}
