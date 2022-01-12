@@ -15,10 +15,16 @@ body {
   background: tomato;
 }
 
-.box:hover {
-  /* transform: rotate(15deg); */
-  /* transform: scale(1.5); */
-  /* transform: skew(15deg); */
-  /* transform: translate(10px, 10px); */
-  transform: rotate(45deg) translateX(50px);
+.container {
+  perspective: 200px;
+}
+
+.container:hover .box {
+  /* transform: perspective(200px) translateZ(50px); */
+  transform: rotateY(50deg);
+  transform-origin: 0 50%;
+}
+
+.container:hover .box-special {
+  transform: rotateX(45deg);
 }
