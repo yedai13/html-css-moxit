@@ -13,18 +13,11 @@ body {
   width: 200px;
   height: 200px;
   background: tomato;
+  transition: transform 0.5s, background 0.5s;
+  /* cubic-bezier(0.06, 0.46, 0.96, 0.4) */
 }
 
-.container {
-  perspective: 200px;
-}
-
-.container:hover .box {
-  /* transform: perspective(200px) translateZ(50px); */
-  transform: rotateY(50deg);
-  transform-origin: 0 50%;
-}
-
-.container:hover .box-special {
-  transform: rotateX(45deg);
+.box:hover {
+  transform: rotate(45deg);
+  background: dodgerblue;
 }
