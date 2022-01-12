@@ -19,19 +19,14 @@
   </head>
   <body>
     <form>
-      <select>
-        <optgroup label="Fron-end Courses">
-          <option value="1" selected>HTML</option>
-          <option value="2">CSS</option>
-          <option value="3">JavaScript</option>
-        </optgroup>
-
-        <optgroup label="Back-end Courses">
-          <option value="1" selected>Node</option>
-          <option value="2">ASP.NET</option>
-          <option value="3">Django</option>
-        </optgroup>
-      </select>
+      <div>
+        <input type="checkbox" name="" id="front-end" checked />
+        <label class="label-inline" for="front-end">Front-end</label>
+      </div>
+      <div>
+        <input type="checkbox" name="" id="back-end" disabled />
+        <label class="label-inline" for="back-end">Back-end</label>
+      </div>
     </form>
   </body>
 </html>
