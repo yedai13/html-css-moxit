@@ -3,12 +3,30 @@ html {
   font-size: 100%;
 }
 
-body {
-  margin: 10px;
-  background: url(../images/bg-paper.jpg);
-  background-repeat: no-repeat;
-  background-position: 0px 0px;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 300vh;
+.bg-dished {
+  background: url("../images/css-sprite-combined.png") 0px -0px;
+  width: 512px;
+  height: 512px;
+  display: inline-block;
+}
+
+.bg-saturn {
+  background: url("../images/css-sprite-combined.png") -512px -0px;
+  width: 512px;
+  height: 512px;
+  display: inline-block;
+}
+
+.bg-rocket {
+  background: url("../images/css-sprite-combined.png") -1024px -0px;
+  width: 512px;
+  height: 512px;
+  display: inline-block;
+}
+
+.bg-ufo {
+  background: url("../images/css-sprite-combined.png") -1536px -0px;
+  width: 512px;
+  height: 512px;
+  display: inline-block;
 }
