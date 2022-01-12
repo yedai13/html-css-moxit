@@ -3,6 +3,6 @@ html {
   font-size: 100%;
 }
 
-.meal:hover {
-  filter: brightness(70%) blur(3px);
+.meal {
+  width: 400px;
 }
