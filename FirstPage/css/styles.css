@@ -31,6 +31,9 @@ body {
   width: 200px;
   height: 200px;
   background: tomato;
+}
+
+.animation-pop {
   animation-name: pop;
   animation-duration: 4s;
   animation-delay: 1s;
